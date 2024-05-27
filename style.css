@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 16px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 }
@@ -13,7 +13,7 @@ body {
 .inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 200px 200px 200px 200px 200px;
+	grid-template-rows: 180px 180px 180px 180px 180px;
 }
 
 .img {
