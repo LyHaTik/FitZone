@@ -32,7 +32,6 @@ body {
 	display: inline-block;
 	padding: 10px 40px;
 	border: none;
-	background: rgb(208,255,113);
 	background_image: url('shopping_cart.png');
 	border-radius: 10px;
 	color: #d0ff71;
