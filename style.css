@@ -23,6 +23,7 @@ body {
 }
 
 .item {
+	margin: 0;
 	text-align: center;
 }
 
