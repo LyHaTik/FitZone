@@ -32,7 +32,7 @@ body {
 	display: inline-block;
 	padding: 10px 40px;
 	border: none;
-	background_image: url('shopping_cart.png');
+	background-image: url('shopping_cart.png');
 	border-radius: 10px;
 	color: #d0ff71;
 	text-transform: uppercase;
