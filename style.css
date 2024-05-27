@@ -46,6 +46,10 @@ body {
 
 .btn:hover {
 	background: rgb(248,168,24);
+	background-image: url('shopping_cart.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 18px;
 }
 
 .usercard {
