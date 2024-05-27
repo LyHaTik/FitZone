@@ -33,6 +33,7 @@ body {
 	padding: 10px 40px;
 	border: none;
 	background-image: url('shopping_cart.png');
+	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 10px;
 	text-transform: uppercase;
