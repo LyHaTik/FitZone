@@ -130,7 +130,8 @@ body {
 }
 
 .img {
-	width: 120px;
+	width: 160px;
+	height: 120px;
 	border: 2px;
 	border-radius: 25px;
 }
