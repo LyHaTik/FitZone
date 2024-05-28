@@ -7,10 +7,12 @@ body {
 }
 
 .container {
-	max-width: 350px;
+	max-width: 390px;
 }
 
 .inner {
+	margin-left: 40;
+    	margin-right: 10;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 180px 180px 180px 180px 180px;
