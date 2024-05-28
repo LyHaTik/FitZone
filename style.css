@@ -124,13 +124,14 @@ body {
 }
 
 .inner {
+	right: 100;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 180px 180px 180px 180px 180px;
 }
 
 .img {
-	width: 160px;
+	width: 120px;
 	height: 120px;
 	border: 2px;
 	border-radius: 25px;
