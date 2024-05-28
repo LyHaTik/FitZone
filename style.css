@@ -11,7 +11,7 @@ body {
 }
 
 .inner {
-	margin-left: 40;
+	margin-left: 80;
     	margin-right: 10;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
