@@ -51,6 +51,7 @@ body {
 	background: var(--tg-theme-text-color);
 	background-position: center;
 	width: 120px;
+	padding: 20;
 }
 
 .img {
