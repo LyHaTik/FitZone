@@ -29,15 +29,15 @@ body {
 }
 
 .container {
-	max-width: 500px;
+	max-width: 450px;
 	padding-left: 20
 }
 
 .inner {
 	right: 100;
 	display: grid;
-	grid-template-columns: 250px 250px;
-	grid-template-rows: 250px 250px;
+	grid-template-columns: 225px 225px;
+	grid-template-rows: 225px 225px;
 }
 
 .item {
