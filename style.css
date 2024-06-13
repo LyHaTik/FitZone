@@ -30,13 +30,13 @@ body {
 
 .container {
 	max-width: 300px;
-	padding-left: 10
+	padding-left: 20
 }
 
 .inner {
 	right: 100;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 180px 180px;
 	grid-template-rows: 180px 180px;
 }
 
