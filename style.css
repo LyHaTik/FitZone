@@ -14,7 +14,7 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #364364;
+  background-image: url('basket.png');
   transition: 0.1s;
   cursor: pointer;
   position: fixed; /* Фиксированное расположение */
@@ -37,7 +37,7 @@ body {
 	<-- padding-left: 20 -->
 }
 
-.inner {w
+.inner {
 	right: 100;
 	display: grid;
 	grid-template-rows: 300px 300px;
