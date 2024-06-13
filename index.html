@@ -86,6 +86,28 @@
 	<script src="app.js"></script>
 
 	<script src="smartbasket.min.js"></script>
-
+	<script>
+		$(function () {
+				$('.smart-basket__wrapper').smbasket({
+					productElement: 'item',
+					buttonAddToBasket: 'btn',
+					productPrice: 'product__price-number',
+					productSize: 'product__size-element',
+					
+					productQuantityWrapper: 'product__quantity',
+					smartBasketMinArea: 'basket',
+					countryCode: '+7',
+					smartBasketCurrency: '₽',
+					smartBasketMinIconPath: 'корзина.png',
+	
+					agreement: {
+						isRequired: true,
+						isChecked: true,
+						isLink: 'https://artstranger.ru/privacy.html',
+					},
+					nameIsRequired: false,
+				});
+			});
+	</script>
 </body>
 </html>
