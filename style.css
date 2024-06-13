@@ -50,6 +50,9 @@ body {
 #product__quantity {
 	background: rgb(208,255,113);
 	width: 120px;
+	background-position: center;
+	text-align: center;
+	align-items: center;
 }
 .img {
 	width: 120px;
