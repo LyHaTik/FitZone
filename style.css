@@ -48,7 +48,7 @@ body {
 }
 
 #product__quantity {
-	background: rgb(208,255,113);
+	background: var(--tg-theme-bg-color);
 	width: 120px;
 	background-position: center;
 	text-align: center;
