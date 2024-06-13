@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-	max-width: 900px;
+	max-width: 300px;
 	padding-left: 10
 }
 
@@ -37,7 +37,7 @@ body {
 	right: 100;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 180px 180px 180px 180px 180px;
+	grid-template-rows: 180px 180px;
 }
 
 .img {
