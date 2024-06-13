@@ -7,7 +7,7 @@ body {
 }
 
 #title {
-	margin-left: 30px;
+	padding-left: 30px;
 }
 	
 #id_basket {
@@ -37,11 +37,10 @@ body {
 	<-- padding-left: 20 -->
 }
 
-.inner {
+.inner {w
 	right: 100;
 	display: grid;
-	grid-template-columns: 200px 200px;
-	grid-template-rows: 225px 225px;
+	grid-template-rows: 300px 300px;
 }
 
 .item {
