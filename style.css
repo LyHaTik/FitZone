@@ -6,6 +6,10 @@ body {
 	background: var(--tg-theme-bg-color);
 }
 
+#title {
+	margin-left: 30px;
+}
+	
 #id_basket {
   width: 75px;
   height: 75px;
