@@ -83,31 +83,34 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://telegram.org/js/telegram-web-app.js"></script>
 	<script src="app.js"></script>
+	
 	<link rel="stylesheet" href="smartbasket.min.js.css">
+	
 	<div class="smart-basket__wrapper"></div>
+	
 	<script src="smartbasket.min.js"></script>
 	<script>
 		$(function () {
-				$('.smart-basket__wrapper').smbasket({
-					productElement: 'item',
-					buttonAddToBasket: 'btn',
-					productPrice: 'product__price-number',
-					productSize: 'product__size-element',
+			$('.smart-basket__wrapper').smbasket({
+				productElement: 'item',
+				buttonAddToBasket: 'btn',
+				productPrice: 'product__price-number',
+				productSize: 'product__size-element',
 					
-					productQuantityWrapper: 'product__quantity',
-					smartBasketMinArea: 'basket',
-					countryCode: '+7',
-					smartBasketCurrency: '₽',
-					smartBasketMinIconPath: 'корзина.png',
+				productQuantityWrapper: 'product__quantity',
+				smartBasketMinArea: 'basket',
+				countryCode: '+7',
+				smartBasketCurrency: '₽',
+				smartBasketMinIconPath: 'корзина.png',
 	
-					agreement: {
-						isRequired: true,
-						isChecked: true,
-						isLink: 'https://artstranger.ru/privacy.html',
-					},
-					nameIsRequired: false,
-				});
+				agreement: {
+					isRequired: true,
+					isChecked: true,
+					isLink: 'https://artstranger.ru/privacy.html',
+				},
+				nameIsRequired: false,
 			});
+		});
 	</script>
 </body>
 </html>
