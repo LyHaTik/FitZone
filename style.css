@@ -48,12 +48,10 @@ body {
 }
 
 #product__quantity {
-	background: var(--tg-theme-bg-color);
+	background: var(--tg-theme-text-color);
 	width: 120px;
-	background-position: center;
-	text-align: center;
-	align-items: center;
 }
+
 .img {
 	width: 120px;
 	height: 120px;
