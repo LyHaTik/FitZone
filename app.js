@@ -140,26 +140,3 @@ p.innerText = `${tg.initDataUnsafe.user.first_name}
 ${tg.initDataUnsafe.user.last_name}`;
 
 usercard.appendChild(p);
-
-
-$(function () {
-				$('.smart-basket__wrapper').smbasket({
-					productElement: 'item',
-					buttonAddToBasket: 'btn',
-					productPrice: 'product__price-number',
-					productSize: 'product__size-element',
-					
-					productQuantityWrapper: 'product__quantity',
-					smartBasketMinArea: 'basket',
-					countryCode: '+7',
-					smartBasketCurrency: '₽',
-					smartBasketMinIconPath: 'корзина.png',
-	
-					agreement: {
-						isRequired: true,
-						isChecked: true,
-						isLink: 'https://artstranger.ru/privacy.html',
-					},
-					nameIsRequired: false,
-				});
-			});
