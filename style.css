@@ -46,6 +46,10 @@ body {
 	text-align: center;
 }
 
+#product__quantity {
+	background: rgb(208,255,113);
+	width: 120px;
+}
 .img {
 	width: 120px;
 	height: 120px;
