@@ -929,7 +929,7 @@
   border-radius:10px;
   -webkit-appearance:none;
   font-size:16px;
-  color:var(--tg-theme-text-color);
+  color:black;
   cursor:pointer
 }
 .smart-basket__alert-button_close{
