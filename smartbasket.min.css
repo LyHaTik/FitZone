@@ -155,7 +155,7 @@
   }
 @media (max-width:1030px){
   .smart-basket__product-name{
-    max-width:100%;
+    max-width:200px;
     padding:0 0 15px;
     -webkit-box-orient:vertical;
     -webkit-box-direction:normal;
