@@ -19,6 +19,7 @@ body {
 
 .container {
 	max-width: 390px;
+	padding: 20px;
 }
 
 .inner {
