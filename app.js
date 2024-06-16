@@ -21,15 +21,15 @@ order.addEventListener("click", () => {
 	let email = document.getElementById("user_email").value;
 	let phone = document.getElementById("user_phone").value;
 	if(name.length < 4) {
-		document.getElementById("error").innerText = "Ошибка в имени";
+		document.getElementById("error").innerText = ".. Ошибка в имени ..";
 		return;
 	}
 	if(email.length < 4) {
-		document.getElementById("error").innerText = "Ошибка в email";
+		document.getElementById("error").innerText = ".. Ошибка в email ..";
 		return;
 	}
 	if(phone.length < 10) {	
-		document.getElementById("error").innerText = "Ошибка в номере телефона";
+		document.getElementById("error").innerText = ".. Ошибка в номере телефона ..";
 		return;
 	}
 
