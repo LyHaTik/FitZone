@@ -6,6 +6,12 @@ body {
 	background: var(--tg-theme-bg-color);
 }
 
+#main {
+	width: 100%;
+	padding: 20px;
+	text_align: center;
+}
+
 #form {
 	display: none;
 	text_align: center;
