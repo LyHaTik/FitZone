@@ -932,7 +932,7 @@
   cursor:pointer
 }
 .smart-basket__alert-button_close{
-  background:#3598dc;
+  background:rgb(208,255,113);
   width:48%
 }
 .smart-basket__alert-button_close:hover{
