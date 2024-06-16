@@ -13,7 +13,7 @@ btn1.addEventListener("click", function(){
 
 
 btn2.addEventListener("click", function(){
-	document.getElemetById("container").style.display = "none";
+	document.getElemetById("inner").style.display = "none";
 	document.getElemetById("form").style.display = "block";
 });
 
