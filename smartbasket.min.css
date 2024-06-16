@@ -267,7 +267,7 @@
   -webkit-appearance:none;
   -moz-appearance:textfield;
   pointer-events:none;
-  background:0 0;
+  background:var(--tg-theme-text-color);
   -webkit-box-sizing:border-box;
   box-sizing:border-box
 }
