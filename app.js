@@ -28,7 +28,7 @@ order.addEventListener("click", () => {
 		document.getElementById("error").innerText = "Ошибка в email";
 		return;
 	}
-	if(email.length < 10) {	
+	if(phone.length < 10) {	
 		document.getElementById("error").innerText = "Ошибка в номере телефона";
 		return;
 	}
