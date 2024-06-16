@@ -827,7 +827,8 @@
   width:100%;
   text-align:center;
   font-size:16px;
-  pointer-events:none
+  pointer-events:none;
+  color:white
 }
 @media (max-width:1030px){
   .smart-basket__input{
