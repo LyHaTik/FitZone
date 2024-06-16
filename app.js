@@ -15,7 +15,7 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали Анорак!");
+		tg.MainButton.setText("Вы выбрали БОТа!");
 		item = "1";
 		tg.MainButton.show();
 	}
@@ -26,7 +26,7 @@ btn2.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали Бутылка!");
+		tg.MainButton.setText("Вы выбрали Консултацию!");
 		item = "2";
 		tg.MainButton.show();
 	}
