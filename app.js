@@ -20,6 +20,18 @@ order.addEventListener("click", () => {
 	let name = document.getElementById("username").value;
 	let email = document.getElementById("user_email").value;
 	let phone = document.getElementById("user_phone").value;
+	if(name.length < 4) {
+		document.getElementById("error").innerText = "Ошибка в имени";
+		return;
+	}
+	if(email.length < 4) {
+		document.getElementById("error").innerText = "Ошибка в email";
+		return;
+	}
+	if(email.length < 10) {	
+		document.getElementById("error").innerText = "Ошибка в номере телефона";
+		return;
+	}
 
 	let data = {
 		name: name,
