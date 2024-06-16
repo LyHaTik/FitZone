@@ -7,7 +7,7 @@
   padding:30px 0;
   position:fixed;
   top:-25000px;
-  background: var(--tg-theme-bg-color);
+  background: var(--tg-theme-header-bg-color);
   display:-webkit-box;
   display:-webkit-flex;
   display:-ms-flexbox;
