@@ -948,6 +948,7 @@
 }
 .smart-basket__alert-button_by{
   background:rgb(248,168,24);
+  background-image: url('shopping_cart.png');
   width:48%
 }
 .smart-basket__alert-button_by:hover{
