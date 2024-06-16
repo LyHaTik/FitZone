@@ -942,7 +942,7 @@
 }
 @media (max-width:450px){
   .smart-basket__alert-button_close{
-    width:100%;
+    width:80%;
     margin-bottom:15px
   }
 }
