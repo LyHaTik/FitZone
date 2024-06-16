@@ -765,14 +765,14 @@
   }
 }
 .smart-basket__send-form{
-  background:#1bbc9b;
+  background:rgb(248,168,24);
   border:none;
   padding:15px 25px;
-  color:#fff;
+  color:black;
   font-size:16px;
   -webkit-appearance:none;
   cursor:pointer;
-  border-radius:3px
+  border-radius:10px
 }
 @media (max-width:768px){
   .smart-basket__send-form{
