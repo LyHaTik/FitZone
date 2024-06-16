@@ -924,11 +924,11 @@
   }
 }
 .smart-basket__alert-button{
-  height:50px;
+  height:15px;
   border:none;
   -webkit-appearance:none;
   font-size:16px;
-  color:#fff;
+  color:var(--tg-theme-text-color);
   cursor:pointer
 }
 .smart-basket__alert-button_close{
