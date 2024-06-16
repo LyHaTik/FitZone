@@ -51,8 +51,8 @@
   .smart-basket{padding:10px}
 }
 .smart-basket__form{
-  width:100%;
-  max-width:1000px;
+  width:80%;
+  max-width:450px;
   margin:0 auto;
   -webkit-box-shadow:0 3px 25px rgba(0,0,0,.2);
   box-shadow:0 3px 25px rgba(0,0,0,.2);
