@@ -19,6 +19,10 @@ body {
 	text_align: center;
 }
 
+.container {
+	height: 600px;
+}
+
 .inner {
 	right: 100;
 	display: grid;
