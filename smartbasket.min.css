@@ -858,7 +858,6 @@
   background: var(--tg-theme-bg-color);
   width:100%;
   max-width:480px;
-  background:#fff;
   -webkit-box-shadow:0 5px 30px rgba(0,0,0,.28);
   box-shadow:0 5px 30px rgba(0,0,0,.28);
   padding:15px
