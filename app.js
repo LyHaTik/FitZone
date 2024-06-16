@@ -20,6 +20,13 @@ btn2.addEventListener("click", function(){
 order.addEventListener("click", () => {
 	let name = document.getElementById("username").value;
 	let email = document.getElementById("user_email").value;
-	let phone = document.getElementById("user_phone").value;	
+	let phone = document.getElementById("user_phone").value;
+
+	let data = {
+		name: name,
+		email: email,
+		phone: phone
+	}
+	tg.sendData(JSON.stringify(data));
 	tg.close;
 });
