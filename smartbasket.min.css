@@ -928,9 +928,10 @@
   border:none;
   border-radius:10px;
   -webkit-appearance:none;
-  font-size:16px;
+  font-size:14px;
   color:black;
-  cursor:pointer
+  cursor:pointer;
+  margin:5px
 }
 .smart-basket__alert-button_close{
   background:rgb(208,255,113);
