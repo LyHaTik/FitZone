@@ -51,6 +51,7 @@
   .smart-basket{padding:10px}
 }
 .smart-basket__form{
+  background: var(--tg-theme-bg-color);
   width:80%;
   max-width:450px;
   margin:0 auto;
