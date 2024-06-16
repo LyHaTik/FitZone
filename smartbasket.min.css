@@ -463,7 +463,8 @@
     background: var(--tg-theme-text-color);
     padding:15px;
     border:1px solid #e2e2e2;
-    height:15px
+    height:15px;
+    border-radius: 6px
   }
 }
 .smart-basket__delete-icon{
