@@ -458,10 +458,11 @@
 }
 @media (max-width:1030px){
   .smart-basket__product-delete{
-    max-width:100%;
+    max-width:20%;
+    background: var(--tg-theme-text-color);
     padding:15px;
     border:1px solid #e2e2e2;
-    height:60px
+    height:15px
   }
 }
 .smart-basket__delete-icon{
