@@ -15,12 +15,12 @@ body {
 #form {
 	width: 70%;
 	display: none;
-	padding: 70px;
+	padding: 130px;
 	text_align: center;
 }
 
 .container {
-	height: 600px;
+	height: 550px;
 }
 
 .inner {
