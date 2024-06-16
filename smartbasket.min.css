@@ -767,7 +767,7 @@
 .smart-basket__send-form{
   background:rgb(248,168,24);
   border:none;
-  padding:15px 25px;
+  padding:5px 5px;
   color:black;
   font-size:16px;
   -webkit-appearance:none;
@@ -777,13 +777,13 @@
 @media (max-width:768px){
   .smart-basket__send-form{
     width:49%;
-    padding:15px 34px
+    padding:5px 5px
   }
 }
 .smart-basket__close-form{
   background:rgb(208,255,113);
   border:none;
-  padding:15px 25px;
+  padding:5px 5px;
   color:black;
   font-size:16px;
   -webkit-appearance:none;
@@ -794,7 +794,7 @@
 @media (max-width:768px){
   .smart-basket__close-form{
     width:49%;
-    padding:15px 10px;
+    padding:5px 5px;
     margin-right:0
   }
 }
