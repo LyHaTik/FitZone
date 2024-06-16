@@ -11,12 +11,6 @@ btn1.addEventListener("click", function(){
 	document.getElemetById("form").style.display = "block";
 });
 
-
-btn2.addEventListener("click", function(){
-	document.getElemetById("inner").style.display = "none";
-	document.getElemetById("form").style.display = "block";
-});
-
 order.addEventListener("click", () => {
 	let name = document.getElementById("username").value;
 	let email = document.getElementById("user_email").value;
