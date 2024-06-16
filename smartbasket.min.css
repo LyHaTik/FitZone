@@ -856,7 +856,7 @@
 }
 .smart-basket__alert{
   background: var(--tg-theme-bg-color);
-  width:100%;
+  width:80%;
   max-width:480px;
   -webkit-box-shadow:0 5px 30px rgba(0,0,0,.28);
   box-shadow:0 5px 30px rgba(0,0,0,.28);
