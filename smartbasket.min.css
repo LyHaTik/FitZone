@@ -781,14 +781,14 @@
   }
 }
 .smart-basket__close-form{
-  background:#3598dc;
+  background:rgb(208,255,113);
   border:none;
   padding:15px 25px;
   color:#fff;
   font-size:16px;
   -webkit-appearance:none;
   cursor:pointer;
-  border-radius:3px;
+  border-radius:10px;
   margin-right:30px
 }
 @media (max-width:768px){
