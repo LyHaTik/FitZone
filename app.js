@@ -6,8 +6,8 @@ let btn1 = document.getElementById("btn1");
 let order = document.getElementById("order");
 
 btn1.addEventListener("click", function(){
-	document.getElemetById("main").style.display = "none";
-	document.getElemetById("form").style.display = "block";
+	document.getElementById("main").style.display = "none";
+	document.getElementById("form").style.display = "block";
 });
 
 order.addEventListener("click", () => {
