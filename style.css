@@ -46,17 +46,6 @@ body {
 	<-- padding-left: 20 -->
 }
 
-.smart-basket__alert {
-	background: rgb(208,255,113);
-}
-
-.smart-basket__alert-button {
-	background: rgb(208,255,113);
-}
-
-.smart-basket__alert-button_close {
-	background: rgb(208,255,113);
-}
 .inner {
 	right: 100;
 	display: grid;
