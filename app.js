@@ -20,6 +20,7 @@ order.addEventListener("click", () => {
 	let name = document.getElementById("username").value;
 	let email = document.getElementById("user_email").value;
 	let phone = document.getElementById("user_phone").value;
+	let comment = document.getElementById("comment").value;
 	let dacoin = "True";
 	if(name.length < 4) {
 		document.getElementById("error").innerText = ".. Ошибка в имени ..";
@@ -38,6 +39,7 @@ order.addEventListener("click", () => {
 		name: name,
 		email: email,
 		phone: phone,
+		comment: comment,
 		dacoin: dacoin
 	}
 	tg.sendData(JSON.stringify(data));
