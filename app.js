@@ -20,7 +20,7 @@ order.addEventListener("click", () => {
 	let name = document.getElementById("username").value;
 	let email = document.getElementById("user_email").value;
 	let phone = document.getElementById("user_phone").value;
-	let dacoin = True;
+	let dacoin = "True";
 	if(name.length < 4) {
 		document.getElementById("error").innerText = ".. Ошибка в имени ..";
 		return;
